@@ -1,0 +1,239 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://example.com/Astra-child/
+ Description:  A child theme for the Astra theme
+ Author:       Your Name
+ Author URI:   http://example.com
+ Template:     Astra
+ Version:      1.0.0
+*/
+
+@import url("../astra/style.css");
+
+/* Add your custom styles below this line */
+
+body * {
+    font-family: Syne !important ;
+ }
+ 
+ /* On applique un gris plus clair sur les paragraphes */
+ p {
+    color: #313332;
+ }
+ /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
+ .hover-effect img {
+    transition: all 0.33s ease-in-out;
+    transform: scale(1) translateY(0px);
+ }
+ .hover-effect img:hover {
+    transition: all 0.33s ease-in-out;
+    transform: scale(1.05) translateY(-10px);
+ }
+ 
+ .header-nav-header-nav-main-nav-nav-right-nav-uppercase {
+    text-align: center !important;
+ }
+ #logo {
+    width: 201px !important;
+    height: 19px !important;
+ }
+ #menu-item-30 {
+    background-color: #DC9F96 !important;
+    padding: 15px ;
+    width: 236px !important;
+    text-align: center !important;
+ }
+ .nav-top-link  {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    font-family: syne !important;
+    text-align: center !important;
+   
+ } 
+ 
+ .admin {
+    font-family: syne !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+ }
+ /*************************PAGE D'ACCUEIL*********************************/
+ .elementor-46 .elementor-element.elementor-element-88a3bbb:not(.elementor-motion-effects-element-type-background) {
+    border-radius: 0% 0% 10% 10% !important;
+ }   
+ .e-con-inner {
+    border-radius: 0% 0% 10% 10% !important;
+
+ }
+ .elementor-46 .elementor-element.elementor-element-4beaaf2:not(.elementor-motion-effects-element-type-background) {
+    border-radius: 0% 0% 5% 5% !important;
+  
+ }
+ 
+ 
+ /************************* PAGE NOUS RENCONTRER*****************/
+ 
+ .elementor-25 .elementor-element.elementor-element-1fa197c:not(.elementor-motion-effects-element-type-background) {
+    border-radius: 0% 0% 25% 25% !important;
+ 
+ }
+ 
+ /* Formulaire */
+ .name-label-meet { /*libeler formulaire*/
+    font-family: syne !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ 
+ .mail-label-meet { /*libeler formulaire*/
+    font-family: syne !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ 
+ .msg-label-meet { /*libeler formulaire*/
+    font-family: syne !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ 
+ .wpcf7-form-control-wrap { /*case du formulaire*/
+    border-radius: 7px !important;
+    width: 383px !important;
+    height: 71px !important;
+ }
+ 
+ .wpcf7-form-control-wrap { /*case du formulaire*/
+    border-radius: 7px !important;
+    width: 383px !important;
+    height: 71px !important;
+ }
+ 
+ .wpcf7-textarea { /*case du formulaire*/
+    border-radius: 7px !important;
+    width: 383px !important;
+    height: 237px !important;
+ }
+ 
+ .wpcf7-submit  {
+    background-color: #E0B9B4 !important;
+    border-radius: 5px !important;
+    margin-top: 170px !important;
+    width: 198px !important;
+    height: 55px !important;
+ }
+ 
+ .wpcf7-form-control-wpcf7-submit-has-spinner{ 
+    font-size: 15px !important;
+    font-family: syne !important;
+    font-weight: 400 !important;
+ }
+ 
+ 
+ 
+ /********************* PAGE COMMANDER *************************/
+ .content-area  {
+    background-color: #3B8E46 !important;
+ }
+ 
+ .elementor-heading-title elementor-size-default {
+    margin-bottom: -50px !important;
+ }
+ .elementor-element elementor-element-22e9530 e-con-full e-flex e-con e-child {
+    margin-top: 150px !important;
+ }
+ 
+ .curseur-fraise {
+    width: 55px !important;
+    height: 56px !important;
+    margin-top: -50% !important;
+    margin-left: 90px !important;
+ }
+ 
+ .curseur-pamplemousse {
+    width: 55px !important;
+    height: 56px !important;
+    margin-top: -68% !important;
+    margin-left: 92% !important;
+ }
+ 
+ .curseur-framboise {
+    width: 55px !important;
+    height: 56px !important;
+    margin-top: -86% !important;
+    margin-left: 158% !important;
+ }
+ 
+ .curseur-citron{
+    width: 55px !important;
+    height: 56px !important;
+    margin-top: -105% !important;
+    margin-left: 224% !important;
+ }
+ 
+ .formulaireCommande {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .colonne2 { /* partie droite du formulaire */
+    margin-left: 14% !important;
+ }
+ 
+ .wpcf7-text { /*case des libeller*/
+    border-radius: 7px !important;
+    width: 383px !important;
+    height: 71px !important;
+ }
+ 
+ .orderName {
+    font-size: syne !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ .orderFName {
+    font-size: syne !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ .orderEmail {
+    font-size: syne !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ .orderAddress {
+    font-size: syne !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ .orderPCode {
+    font-size: syne !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ .orderCity {
+    font-size: syne !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+ }
+ 
+ .orderSubmit  { /*bouton d'envoie*/
+    background-color: #DC9F96 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-family: syne !important;
+    border-radius: 7px !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important; 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
